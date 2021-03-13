@@ -1,0 +1,40 @@
+#include <bits/stdc++.h>
+using namespace std;
+ 
+string solve(string str,int k)
+{
+    if(k==0)
+        return "Yes";
+        
+    int n=str.length();
+    int i=0,j=n-1;
+    
+    while(i<j&&k>0)
+    {
+        if(str[i]!=str[j])
+            break;
+        i++;
+        j--;
+        k--;
+    }
+    if(k>0)
+        return "No";
+    if(i>j&&k==0)
+        return "No";
+    return "Yes";
+}
+int main() 
+{
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int n,k;
+        cin>>n>>k;
+        string str;
+        cin>>str;
+ 
+        cout<<solve(str,k)<<"\n";
+    }
+	return 0;
+}
