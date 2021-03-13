@@ -24,25 +24,37 @@ You can print letters in any case (upper or lower).
 7
 5 1
 qwqwq
+
 2 1
 ab
+
 3 1
 ioi
+
 4 2
 icpc
+
 22 0
 dokidokiliteratureclub
+
 19 8
 imteamshanghaialice
+
 6 3
 aaaaaa
 ## outputCopy
 YES
+
 NO
+
 YES
+
 NO
+
 YES
+
 NO
+
 NO
 # Note
 In the first test case, one possible solution is a1=qw and a2=q.
